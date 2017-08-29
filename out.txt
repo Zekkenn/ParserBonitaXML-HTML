@@ -1,0 +1,3609 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building parseBonita 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) > validate @ parseBonita >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) < validate @ parseBonita <<<
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ parseBonita ---
+Node name : #document
+Node type : DOCUMENT_NODE
+Node value: null
+|-----Node name : model:definitions
+|-----Node type : ELEMENT_NODE
+|-----Node value: null
+|-----|a----Node name : exporter
+|-----|a----Node type : ATTRIBUTE_NODE
+|-----|a----Node value: BonitaSoft
+|-----|a----|-----Node name : #text
+|-----|a----|-----Node type : TEXT_NODE
+|-----|a----|-----Node value: BonitaSoft
+|-----|a----Node name : exporterVersion
+|-----|a----Node type : ATTRIBUTE_NODE
+|-----|a----Node value: 7.3.3
+|-----|a----|-----Node name : #text
+|-----|a----|-----Node type : TEXT_NODE
+|-----|a----|-----Node value: 7.3.3
+|-----|a----Node name : expressionLanguage
+|-----|a----Node type : ATTRIBUTE_NODE
+|-----|a----Node value: http://groovy.codehaus.org/
+|-----|a----|-----Node name : #text
+|-----|a----|-----Node type : TEXT_NODE
+|-----|a----|-----Node value: http://groovy.codehaus.org/
+|-----|a----Node name : targetNamespace
+|-----|a----Node type : ATTRIBUTE_NODE
+|-----|a----Node value: http://bonitasoft.com/_yOYOIPnREeaHKOaCLInE8A
+|-----|a----|-----Node name : #text
+|-----|a----|-----Node type : TEXT_NODE
+|-----|a----|-----Node value: http://bonitasoft.com/_yOYOIPnREeaHKOaCLInE8A
+|-----|a----Node name : xmlns:bonitaConnector
+|-----|a----Node type : ATTRIBUTE_NODE
+|-----|a----Node value: http://www.bonitasoft.org/studio/connector/definition/6.0
+|-----|a----|-----Node name : #text
+|-----|a----|-----Node type : TEXT_NODE
+|-----|a----|-----Node value: http://www.bonitasoft.org/studio/connector/definition/6.0
+|-----|a----Node name : xmlns:dc
+|-----|a----Node type : ATTRIBUTE_NODE
+|-----|a----Node value: http://www.omg.org/spec/DD/20100524/DC
+|-----|a----|-----Node name : #text
+|-----|a----|-----Node type : TEXT_NODE
+|-----|a----|-----Node value: http://www.omg.org/spec/DD/20100524/DC
+|-----|a----Node name : xmlns:di
+|-----|a----Node type : ATTRIBUTE_NODE
+|-----|a----Node value: http://www.omg.org/spec/BPMN/20100524/DI
+|-----|a----|-----Node name : #text
+|-----|a----|-----Node type : TEXT_NODE
+|-----|a----|-----Node value: http://www.omg.org/spec/BPMN/20100524/DI
+|-----|a----Node name : xmlns:di_1
+|-----|a----Node type : ATTRIBUTE_NODE
+|-----|a----Node value: http://www.omg.org/spec/DD/20100524/DI
+|-----|a----|-----Node name : #text
+|-----|a----|-----Node type : TEXT_NODE
+|-----|a----|-----Node value: http://www.omg.org/spec/DD/20100524/DI
+|-----|a----Node name : xmlns:java
+|-----|a----Node type : ATTRIBUTE_NODE
+|-----|a----Node value: http://jcp.org/en/jsr/detail?id=270
+|-----|a----|-----Node name : #text
+|-----|a----|-----Node type : TEXT_NODE
+|-----|a----|-----Node value: http://jcp.org/en/jsr/detail?id=270
+|-----|a----Node name : xmlns:model
+|-----|a----Node type : ATTRIBUTE_NODE
+|-----|a----Node value: http://www.omg.org/spec/BPMN/20100524/MODEL
+|-----|a----|-----Node name : #text
+|-----|a----|-----Node type : TEXT_NODE
+|-----|a----|-----Node value: http://www.omg.org/spec/BPMN/20100524/MODEL
+|-----|a----Node name : xmlns:xsi
+|-----|a----Node type : ATTRIBUTE_NODE
+|-----|a----Node value: http://www.w3.org/2001/XMLSchema-instance
+|-----|a----|-----Node name : #text
+|-----|a----|-----Node type : TEXT_NODE
+|-----|a----|-----Node value: http://www.w3.org/2001/XMLSchema-instance
+|-----|a----Node name : xsi:schemaLocation
+|-----|a----Node type : ATTRIBUTE_NODE
+|-----|a----Node value: schemaLocation http://www.omg.org/spec/BPMN/20100524/MODEL schemas/BPMN20.xsd
+|-----|a----|-----Node name : #text
+|-----|a----|-----Node type : TEXT_NODE
+|-----|a----|-----Node value: schemaLocation http://www.omg.org/spec/BPMN/20100524/MODEL schemas/BPMN20.xsd
+|-----|-----Node name : #text
+|-----|-----Node type : TEXT_NODE
+|-----|-----Node value: 
+  
+|-----|-----Node name : model:import
+|-----|-----Node type : ELEMENT_NODE
+|-----|-----Node value: null
+|-----|-----|a----Node name : importType
+|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|a----Node value: http://www.w3.org/2001/XMLSchema
+|-----|-----|a----|-----Node name : #text
+|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|a----|-----Node value: http://www.w3.org/2001/XMLSchema
+|-----|-----|a----Node name : location
+|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|a----Node value: connectorDefs/email.defconnectors.xsd
+|-----|-----|a----|-----Node name : #text
+|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|a----|-----Node value: connectorDefs/email.defconnectors.xsd
+|-----|-----|a----Node name : namespace
+|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|a----Node value: http://www.bonitasoft.org/studio/connector/definition/6.0
+|-----|-----|a----|-----Node name : #text
+|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|a----|-----Node value: http://www.bonitasoft.org/studio/connector/definition/6.0
+|-----|-----Node name : #text
+|-----|-----Node type : TEXT_NODE
+|-----|-----Node value: 
+  
+|-----|-----Node name : model:collaboration
+|-----|-----Node type : ELEMENT_NODE
+|-----|-----Node value: null
+|-----|-----|a----Node name : id
+|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|a----Node value: _yOYOIPnREeaHKOaCLInE8A
+|-----|-----|a----|-----Node name : #text
+|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|a----|-----Node value: _yOYOIPnREeaHKOaCLInE8A
+|-----|-----|-----Node name : #text
+|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : model:participant
+|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----Node value: null
+|-----|-----|-----|a----Node name : id
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _v6-GAIzaEeekgYCt__ZgKQ
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _v6-GAIzaEeekgYCt__ZgKQ
+|-----|-----|-----|a----Node name : name
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: Viaje
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: Viaje
+|-----|-----|-----|a----Node name : processRef
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _yOYOIfnREeaHKOaCLInE8A
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _yOYOIfnREeaHKOaCLInE8A
+|-----|-----|-----Node name : #text
+|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : model:participant
+|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----Node value: null
+|-----|-----|-----|a----Node name : id
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _yOYOdvnREeaHKOaCLInE8A
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _yOYOdvnREeaHKOaCLInE8A
+|-----|-----|-----|a----Node name : name
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: Employee actor
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: Employee actor
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : model:documentation
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: This is an example of actor that is mapped to any ACME users
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : #text
+|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----Node value: 
+  
+|-----|-----Node name : #text
+|-----|-----Node type : TEXT_NODE
+|-----|-----Node value: 
+  
+|-----|-----Node name : model:process
+|-----|-----Node type : ELEMENT_NODE
+|-----|-----Node value: null
+|-----|-----|a----Node name : id
+|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|a----Node value: _yOYOIfnREeaHKOaCLInE8A
+|-----|-----|a----|-----Node name : #text
+|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|a----|-----Node value: _yOYOIfnREeaHKOaCLInE8A
+|-----|-----|a----Node name : name
+|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|a----Node value: Viaje
+|-----|-----|a----|-----Node name : #text
+|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|a----|-----Node value: Viaje
+|-----|-----|-----Node name : #text
+|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : model:ioSpecification
+|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----Node value: null
+|-----|-----|-----|a----Node name : id
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _v7RA8YzaEeekgYCt__ZgKQ
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _v7RA8YzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : model:dataInput
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _v7RA8ozaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _v7RA8ozaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|a----Node name : itemSubjectRef
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _yOYOWvnREeaHKOaCLInE8A
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _yOYOWvnREeaHKOaCLInE8A
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : model:inputSet
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _v7RoAIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _v7RoAIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:dataInputRefs
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: _v7RA8ozaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : model:outputSet
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _v7S2IYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _v7S2IYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : #text
+|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : model:laneSet
+|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----Node value: null
+|-----|-----|-----|a----Node name : id
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: Viaje_laneSet
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: Viaje_laneSet
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : model:lane
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _yOYOIvnREeaHKOaCLInE8A
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _yOYOIvnREeaHKOaCLInE8A
+|-----|-----|-----|-----|a----Node name : name
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: Supervisor
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: Supervisor
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:flowNodeRef
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: _yOYOKPnREeaHKOaCLInE8A
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:flowNodeRef
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: _yOYOI_nREeaHKOaCLInE8A
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:flowNodeRef
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: _yOYOTvnREeaHKOaCLInE8A
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:flowNodeRef
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: _Pik0QPoPEeaQm7toDbURwA
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:flowNodeRef
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: _06ghwPoUEeaQm7toDbURwA
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:flowNodeRef
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: _6POjsPoUEeaQm7toDbURwA
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : #text
+|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : model:dataObject
+|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----Node value: null
+|-----|-----|-----|a----Node name : id
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: DataObject_v7RA8IzaEeekgYCt__ZgKQ_yOYOWvnREeaHKOaCLInE8A
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: DataObject_v7RA8IzaEeekgYCt__ZgKQ_yOYOWvnREeaHKOaCLInE8A
+|-----|-----|-----|a----Node name : isCollection
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: false
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: false
+|-----|-----|-----|a----Node name : itemSubjectRef
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _yOYOWvnREeaHKOaCLInE8A
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _yOYOWvnREeaHKOaCLInE8A
+|-----|-----|-----|a----Node name : name
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: viajeUsuario
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: viajeUsuario
+|-----|-----|-----Node name : #text
+|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : model:userTask
+|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----Node value: null
+|-----|-----|-----|a----Node name : id
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _yOYOKPnREeaHKOaCLInE8A
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _yOYOKPnREeaHKOaCLInE8A
+|-----|-----|-----|a----Node name : name
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: Planificar viaje
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: Planificar viaje
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : model:performer
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _v7ax8IzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _v7ax8IzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:resourceRef
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: _yOYOdvnREeaHKOaCLInE8A
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : #text
+|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : model:startEvent
+|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----Node value: null
+|-----|-----|-----|a----Node name : id
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _yOYOI_nREeaHKOaCLInE8A
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _yOYOI_nREeaHKOaCLInE8A
+|-----|-----|-----|a----Node name : name
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: Inicio planiación viaje
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: Inicio planiación viaje
+|-----|-----|-----Node name : #text
+|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : model:endEvent
+|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----Node value: null
+|-----|-----|-----|a----Node name : id
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _yOYOTvnREeaHKOaCLInE8A
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _yOYOTvnREeaHKOaCLInE8A
+|-----|-----|-----|a----Node name : name
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: Finalización planeación viaje
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: Finalización planeación viaje
+|-----|-----|-----Node name : #text
+|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : model:exclusiveGateway
+|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----Node value: null
+|-----|-----|-----|a----Node name : default
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _3XrHwPoUEeaQm7toDbURwA
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _3XrHwPoUEeaQm7toDbURwA
+|-----|-----|-----|a----Node name : id
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _Pik0QPoPEeaQm7toDbURwA
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _Pik0QPoPEeaQm7toDbURwA
+|-----|-----|-----|a----Node name : name
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: Aprobada
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: Aprobada
+|-----|-----|-----Node name : #text
+|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : model:serviceTask
+|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----Node value: null
+|-----|-----|-----|a----Node name : id
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _06ghwPoUEeaQm7toDbURwA
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _06ghwPoUEeaQm7toDbURwA
+|-----|-----|-----|a----Node name : implementation
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: BonitaConnector
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: BonitaConnector
+|-----|-----|-----|a----Node name : name
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: Aprovación de viaje
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: Aprovación de viaje
+|-----|-----|-----|a----Node name : operationRef
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: Execemail
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: Execemail
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : model:ioSpecification
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _wB6bgIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _wB6bgIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:dataInput
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: _wB6bgYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: _wB6bgYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|a----Node name : itemSubjectRef
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: emailConnectorInput
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: emailConnectorInput
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:dataOutput
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: _wB7CkIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: _wB7CkIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|a----Node name : itemSubjectRef
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: emailConnectorOutput
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: emailConnectorOutput
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:inputSet
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: _wB6bgozaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: _wB6bgozaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:dataInputRefs
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: _wB6bgYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:outputSet
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: _wB7CkYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: _wB7CkYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:dataOutputRefs
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: _wB7CkIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : model:dataInputAssociation
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:targetRef
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: _wB6bgYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:assignment
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:from
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : evaluatesToTypeRef
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: java:java.lang.String
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: java:java.lang.String
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7poIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7poIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----Node name : language
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----Node name : xsi:type
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: smtp.gmail.com
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:to
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7poYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7poYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: getDataInput('_wB6bgYzaEeekgYCt__ZgKQ')/bonitaConnector:smtpHost
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:assignment
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:from
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : evaluatesToTypeRef
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: java:java.lang.Integer
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: java:java.lang.Integer
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7poozaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7poozaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----Node name : language
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----Node name : xsi:type
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: 465
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:to
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7po4zaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7po4zaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: getDataInput('_wB6bgYzaEeekgYCt__ZgKQ')/bonitaConnector:smtpPort
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:assignment
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:from
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : evaluatesToTypeRef
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: java:java.lang.Boolean
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: java:java.lang.Boolean
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7ppIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7ppIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----Node name : language
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----Node name : xsi:type
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: true
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:to
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7ppYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7ppYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: getDataInput('_wB6bgYzaEeekgYCt__ZgKQ')/bonitaConnector:sslSupport
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:assignment
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:from
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : evaluatesToTypeRef
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: java:java.lang.Boolean
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: java:java.lang.Boolean
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7ppozaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7ppozaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----Node name : language
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----Node name : xsi:type
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: false
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:to
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7pp4zaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7pp4zaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: getDataInput('_wB6bgYzaEeekgYCt__ZgKQ')/bonitaConnector:starttlsSupport
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:assignment
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:from
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : evaluatesToTypeRef
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: java:java.lang.String
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: java:java.lang.String
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7pqIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7pqIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----Node name : language
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----Node name : xsi:type
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: hernan.losada96@gmail.com
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:to
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7pqYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7pqYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: getDataInput('_wB6bgYzaEeekgYCt__ZgKQ')/bonitaConnector:userName
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:assignment
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:from
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : evaluatesToTypeRef
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: java:java.lang.String
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: java:java.lang.String
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7pqozaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7pqozaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----Node name : language
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----Node name : xsi:type
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: grantasd1996
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:to
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7pq4zaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7pq4zaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: getDataInput('_wB6bgYzaEeekgYCt__ZgKQ')/bonitaConnector:password
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:assignment
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:from
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : evaluatesToTypeRef
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: java:java.lang.String
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: java:java.lang.String
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7prIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7prIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----Node name : language
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----Node name : xsi:type
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: Admin 
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:to
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7prYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7prYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: getDataInput('_wB6bgYzaEeekgYCt__ZgKQ')/bonitaConnector:from
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:assignment
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:from
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : evaluatesToTypeRef
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: java:java.lang.String
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: java:java.lang.String
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7prozaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7prozaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----Node name : language
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----Node name : xsi:type
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: getEmail
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:to
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7pr4zaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7pr4zaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: getDataInput('_wB6bgYzaEeekgYCt__ZgKQ')/bonitaConnector:to
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:assignment
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:from
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : evaluatesToTypeRef
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: java:java.lang.String
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: java:java.lang.String
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7psIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7psIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----Node name : language
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----Node name : xsi:type
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:to
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7psYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7psYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: getDataInput('_wB6bgYzaEeekgYCt__ZgKQ')/bonitaConnector:bcc
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:assignment
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:from
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : evaluatesToTypeRef
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: java:java.lang.String
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: java:java.lang.String
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7psozaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7psozaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----Node name : language
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----Node name : xsi:type
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:to
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7ps4zaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7ps4zaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: getDataInput('_wB6bgYzaEeekgYCt__ZgKQ')/bonitaConnector:cc
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:assignment
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:from
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : evaluatesToTypeRef
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: java:java.lang.String
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: java:java.lang.String
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7ptIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7ptIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----Node name : language
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----Node name : xsi:type
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: getNombre
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:to
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7ptYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7ptYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: getDataInput('_wB6bgYzaEeekgYCt__ZgKQ')/bonitaConnector:subject
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:assignment
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:from
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : evaluatesToTypeRef
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: java:java.lang.Boolean
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: java:java.lang.Boolean
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7ptozaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7ptozaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----Node name : language
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----Node name : xsi:type
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: true
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:to
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7pt4zaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7pt4zaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: getDataInput('_wB6bgYzaEeekgYCt__ZgKQ')/bonitaConnector:html
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:assignment
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:from
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : evaluatesToTypeRef
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: java:java.lang.String
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: java:java.lang.String
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7puIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7puIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----Node name : language
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----Node name : xsi:type
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: Su viaje ha sido aprobado
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:to
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7puYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7puYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: getDataInput('_wB6bgYzaEeekgYCt__ZgKQ')/bonitaConnector:message
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:assignment
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:from
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : evaluatesToTypeRef
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: java:java.lang.String
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: java:java.lang.String
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7puozaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7puozaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----Node name : language
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----Node name : xsi:type
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: UTF-8
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:to
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7pu4zaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7pu4zaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: getDataInput('_wB6bgYzaEeekgYCt__ZgKQ')/bonitaConnector:charset
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : model:assignment
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:from
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : evaluatesToTypeRef
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: java:java.lang.String
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: java:java.lang.String
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7pvIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7pvIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----Node name : language
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|-----|-----|a----Node name : xsi:type
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : model:to
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: _wB7pvYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: _wB7pvYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|-----Node value: getDataInput('_wB6bgYzaEeekgYCt__ZgKQ')/bonitaConnector:replyTo
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : #text
+|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : model:serviceTask
+|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----Node value: null
+|-----|-----|-----|a----Node name : id
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _6POjsPoUEeaQm7toDbURwA
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _6POjsPoUEeaQm7toDbURwA
+|-----|-----|-----|a----Node name : name
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: Rechazo de viaje
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: Rechazo de viaje
+|-----|-----|-----Node name : #text
+|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : model:sequenceFlow
+|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----Node value: null
+|-----|-----|-----|a----Node name : id
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _yOYOcPnREeaHKOaCLInE8A
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _yOYOcPnREeaHKOaCLInE8A
+|-----|-----|-----|a----Node name : name
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: 
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: 
+|-----|-----|-----|a----Node name : sourceRef
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _yOYOI_nREeaHKOaCLInE8A
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _yOYOI_nREeaHKOaCLInE8A
+|-----|-----|-----|a----Node name : targetRef
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _yOYOKPnREeaHKOaCLInE8A
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _yOYOKPnREeaHKOaCLInE8A
+|-----|-----|-----Node name : #text
+|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : model:sequenceFlow
+|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----Node value: null
+|-----|-----|-----|a----Node name : id
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _QSZusPoPEeaQm7toDbURwA
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _QSZusPoPEeaQm7toDbURwA
+|-----|-----|-----|a----Node name : name
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: 
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: 
+|-----|-----|-----|a----Node name : sourceRef
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _yOYOKPnREeaHKOaCLInE8A
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _yOYOKPnREeaHKOaCLInE8A
+|-----|-----|-----|a----Node name : targetRef
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _Pik0QPoPEeaQm7toDbURwA
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _Pik0QPoPEeaQm7toDbURwA
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : model:conditionExpression
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : evaluatesToTypeRef
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: java:java.lang.Boolean
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: java:java.lang.Boolean
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _wCHP0IzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _wCHP0IzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|a----Node name : language
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|a----Node name : xsi:type
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: model:tFormalExpression
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: model:tFormalExpression
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : #text
+|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : model:sequenceFlow
+|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----Node value: null
+|-----|-----|-----|a----Node name : id
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _3XrHwPoUEeaQm7toDbURwA
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _3XrHwPoUEeaQm7toDbURwA
+|-----|-----|-----|a----Node name : name
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: Aprobado
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: Aprobado
+|-----|-----|-----|a----Node name : sourceRef
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _Pik0QPoPEeaQm7toDbURwA
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _Pik0QPoPEeaQm7toDbURwA
+|-----|-----|-----|a----Node name : targetRef
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _06ghwPoUEeaQm7toDbURwA
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _06ghwPoUEeaQm7toDbURwA
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : model:conditionExpression
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : evaluatesToTypeRef
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: java:java.lang.Boolean
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: java:java.lang.Boolean
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _wCHP0YzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _wCHP0YzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|a----Node name : language
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|a----Node name : xsi:type
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: model:tFormalExpression
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: model:tFormalExpression
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : #text
+|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : model:sequenceFlow
+|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----Node value: null
+|-----|-----|-----|a----Node name : id
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _6v0IQPoUEeaQm7toDbURwA
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _6v0IQPoUEeaQm7toDbURwA
+|-----|-----|-----|a----Node name : name
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: Rechazado
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: Rechazado
+|-----|-----|-----|a----Node name : sourceRef
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _Pik0QPoPEeaQm7toDbURwA
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _Pik0QPoPEeaQm7toDbURwA
+|-----|-----|-----|a----Node name : targetRef
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _6POjsPoUEeaQm7toDbURwA
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _6POjsPoUEeaQm7toDbURwA
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : model:conditionExpression
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : evaluatesToTypeRef
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: java:java.lang.Boolean
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: java:java.lang.Boolean
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _wCHP0ozaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _wCHP0ozaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|a----Node name : xsi:type
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: model:tFormalExpression
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: model:tFormalExpression
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: return viajeUsuario.estado.equals("refused")
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : #text
+|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : model:sequenceFlow
+|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----Node value: null
+|-----|-----|-----|a----Node name : id
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _MsZpoPoVEeaQm7toDbURwA
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _MsZpoPoVEeaQm7toDbURwA
+|-----|-----|-----|a----Node name : name
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: 
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: 
+|-----|-----|-----|a----Node name : sourceRef
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _06ghwPoUEeaQm7toDbURwA
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _06ghwPoUEeaQm7toDbURwA
+|-----|-----|-----|a----Node name : targetRef
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _yOYOTvnREeaHKOaCLInE8A
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _yOYOTvnREeaHKOaCLInE8A
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : model:conditionExpression
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : evaluatesToTypeRef
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: java:java.lang.Boolean
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: java:java.lang.Boolean
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _wCHP04zaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _wCHP04zaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|a----Node name : language
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|a----Node name : xsi:type
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: model:tFormalExpression
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: model:tFormalExpression
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : #text
+|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : model:sequenceFlow
+|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----Node value: null
+|-----|-----|-----|a----Node name : id
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _M_K0oPoVEeaQm7toDbURwA
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _M_K0oPoVEeaQm7toDbURwA
+|-----|-----|-----|a----Node name : name
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: 
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: 
+|-----|-----|-----|a----Node name : sourceRef
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _6POjsPoUEeaQm7toDbURwA
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _6POjsPoUEeaQm7toDbURwA
+|-----|-----|-----|a----Node name : targetRef
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _yOYOTvnREeaHKOaCLInE8A
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _yOYOTvnREeaHKOaCLInE8A
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : model:conditionExpression
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : evaluatesToTypeRef
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: java:java.lang.Boolean
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: java:java.lang.Boolean
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _wCHP1IzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _wCHP1IzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|a----Node name : language
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: http://www.w3.org/1999/XPath
+|-----|-----|-----|-----|a----Node name : xsi:type
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: model:tFormalExpression
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: model:tFormalExpression
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : #text
+|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----Node value: 
+  
+|-----|-----Node name : #text
+|-----|-----Node type : TEXT_NODE
+|-----|-----Node value: 
+  
+|-----|-----Node name : model:itemDefinition
+|-----|-----Node type : ELEMENT_NODE
+|-----|-----Node value: null
+|-----|-----|a----Node name : id
+|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|a----Node value: _yOYOWvnREeaHKOaCLInE8A
+|-----|-----|a----|-----Node name : #text
+|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|a----|-----Node value: _yOYOWvnREeaHKOaCLInE8A
+|-----|-----|a----Node name : structureRef
+|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|a----Node value: java:com.company.model.ViajeUsuario
+|-----|-----|a----|-----Node name : #text
+|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|a----|-----Node value: java:com.company.model.ViajeUsuario
+|-----|-----Node name : #text
+|-----|-----Node type : TEXT_NODE
+|-----|-----Node value: 
+  
+|-----|-----Node name : model:itemDefinition
+|-----|-----Node type : ELEMENT_NODE
+|-----|-----Node value: null
+|-----|-----|a----Node name : id
+|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|a----Node value: emailConnectorInput
+|-----|-----|a----|-----Node name : #text
+|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|a----|-----Node value: emailConnectorInput
+|-----|-----|a----Node name : structureRef
+|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|a----Node value: bonitaConnector:emailInputType
+|-----|-----|a----|-----Node name : #text
+|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|a----|-----Node value: bonitaConnector:emailInputType
+|-----|-----Node name : #text
+|-----|-----Node type : TEXT_NODE
+|-----|-----Node value: 
+  
+|-----|-----Node name : model:message
+|-----|-----Node type : ELEMENT_NODE
+|-----|-----Node value: null
+|-----|-----|a----Node name : id
+|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|a----Node value: emailConnectorMessageInput
+|-----|-----|a----|-----Node name : #text
+|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|a----|-----Node value: emailConnectorMessageInput
+|-----|-----|a----Node name : itemRef
+|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|a----Node value: emailConnectorInput
+|-----|-----|a----|-----Node name : #text
+|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|a----|-----Node value: emailConnectorInput
+|-----|-----Node name : #text
+|-----|-----Node type : TEXT_NODE
+|-----|-----Node value: 
+  
+|-----|-----Node name : model:itemDefinition
+|-----|-----Node type : ELEMENT_NODE
+|-----|-----Node value: null
+|-----|-----|a----Node name : id
+|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|a----Node value: emailConnectorOutput
+|-----|-----|a----|-----Node name : #text
+|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|a----|-----Node value: emailConnectorOutput
+|-----|-----|a----Node name : structureRef
+|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|a----Node value: bonitaConnector:emailOutputType
+|-----|-----|a----|-----Node name : #text
+|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|a----|-----Node value: bonitaConnector:emailOutputType
+|-----|-----Node name : #text
+|-----|-----Node type : TEXT_NODE
+|-----|-----Node value: 
+  
+|-----|-----Node name : model:message
+|-----|-----Node type : ELEMENT_NODE
+|-----|-----Node value: null
+|-----|-----|a----Node name : id
+|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|a----Node value: emailConnectorMessageOutput
+|-----|-----|a----|-----Node name : #text
+|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|a----|-----Node value: emailConnectorMessageOutput
+|-----|-----|a----Node name : itemRef
+|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|a----Node value: emailConnectorOutput
+|-----|-----|a----|-----Node name : #text
+|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|a----|-----Node value: emailConnectorOutput
+|-----|-----Node name : #text
+|-----|-----Node type : TEXT_NODE
+|-----|-----Node value: 
+  
+|-----|-----Node name : model:interface
+|-----|-----Node type : ELEMENT_NODE
+|-----|-----Node value: null
+|-----|-----|a----Node name : id
+|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|a----Node value: email_Bonita_Connector_Interface
+|-----|-----|a----|-----Node name : #text
+|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|a----|-----Node value: email_Bonita_Connector_Interface
+|-----|-----|a----Node name : name
+|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|a----Node value: email_Bonita_Connector_Interface
+|-----|-----|a----|-----Node name : #text
+|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|a----|-----Node value: email_Bonita_Connector_Interface
+|-----|-----|-----Node name : #text
+|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : model:operation
+|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----Node value: null
+|-----|-----|-----|a----Node name : id
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: Execemail
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: Execemail
+|-----|-----|-----|a----Node name : name
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: Execemail
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: Execemail
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : model:inMessageRef
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: emailConnectorMessageInput
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : model:outMessageRef
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: emailConnectorMessageOutput
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : #text
+|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----Node value: 
+  
+|-----|-----Node name : #text
+|-----|-----Node type : TEXT_NODE
+|-----|-----Node value: 
+  
+|-----|-----Node name : di:BPMNDiagram
+|-----|-----Node type : ELEMENT_NODE
+|-----|-----Node value: null
+|-----|-----|a----Node name : name
+|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|a----Node value: Viaje-AREM
+|-----|-----|a----|-----Node name : #text
+|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|a----|-----Node value: Viaje-AREM
+|-----|-----|-----Node name : #text
+|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : di:BPMNPlane
+|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----Node value: null
+|-----|-----|-----|a----Node name : bpmnElement
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _yOYOIPnREeaHKOaCLInE8A
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _yOYOIPnREeaHKOaCLInE8A
+|-----|-----|-----|a----Node name : id
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: plane__yOYOIPnREeaHKOaCLInE8A
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: plane__yOYOIPnREeaHKOaCLInE8A
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : di:BPMNShape
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : bpmnElement
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _v6-GAIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _v6-GAIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _yOYOm_nREeaHKOaCLInE8A
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _yOYOm_nREeaHKOaCLInE8A
+|-----|-----|-----|-----|a----Node name : isHorizontal
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: true
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: true
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : dc:Bounds
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : height
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 275.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 275.0
+|-----|-----|-----|-----|-----|a----Node name : width
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 1641.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 1641.0
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 30.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 30.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 30.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 30.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : di:BPMNShape
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : bpmnElement
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _yOYOIvnREeaHKOaCLInE8A
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _yOYOIvnREeaHKOaCLInE8A
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _yOYOnvnREeaHKOaCLInE8A
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _yOYOnvnREeaHKOaCLInE8A
+|-----|-----|-----|-----|a----Node name : isHorizontal
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: true
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: true
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : dc:Bounds
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : height
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 275.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 275.0
+|-----|-----|-----|-----|-----|a----Node name : width
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 1658.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 1658.0
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 52.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 52.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 30.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 30.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : di:BPMNShape
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : bpmnElement
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _yOYOKPnREeaHKOaCLInE8A
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _yOYOKPnREeaHKOaCLInE8A
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _yOYOofnREeaHKOaCLInE8A
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _yOYOofnREeaHKOaCLInE8A
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : dc:Bounds
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : height
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 50.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 50.0
+|-----|-----|-----|-----|-----|a----Node name : width
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 100.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 100.0
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 266.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 266.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 90.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 90.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : di:BPMNShape
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : bpmnElement
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _yOYOI_nREeaHKOaCLInE8A
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _yOYOI_nREeaHKOaCLInE8A
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _yOYOpPnREeaHKOaCLInE8A
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _yOYOpPnREeaHKOaCLInE8A
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : dc:Bounds
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : height
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 30.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 30.0
+|-----|-----|-----|-----|-----|a----Node name : width
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 30.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 30.0
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 143.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 143.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 98.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 98.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di:BPMNLabel
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: _v7bZAIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: _v7bZAIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|a----Node name : labelStyle
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: _v7OksIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: _v7OksIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : dc:Bounds
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : height
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 15.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 15.0
+|-----|-----|-----|-----|-----|-----|a----Node name : width
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 115.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 115.0
+|-----|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 101.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 101.0
+|-----|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 133.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 133.0
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : di:BPMNShape
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : bpmnElement
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _yOYOTvnREeaHKOaCLInE8A
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _yOYOTvnREeaHKOaCLInE8A
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _yOYOqPnREeaHKOaCLInE8A
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _yOYOqPnREeaHKOaCLInE8A
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : dc:Bounds
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : height
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 30.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 30.0
+|-----|-----|-----|-----|-----|a----Node name : width
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 30.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 30.0
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 874.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 874.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 140.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 140.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di:BPMNLabel
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: _v7bZAYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: _v7bZAYzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|a----Node name : labelStyle
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: _v7OksIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: _v7OksIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : dc:Bounds
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : height
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 15.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 15.0
+|-----|-----|-----|-----|-----|-----|a----Node name : width
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 151.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 151.0
+|-----|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 814.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 814.0
+|-----|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 175.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 175.0
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : di:BPMNShape
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : bpmnElement
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _Pik0QPoPEeaQm7toDbURwA
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _Pik0QPoPEeaQm7toDbURwA
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _PioeoPoPEeaQm7toDbURwA
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _PioeoPoPEeaQm7toDbURwA
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : dc:Bounds
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : height
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 43.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 43.0
+|-----|-----|-----|-----|-----|a----Node name : width
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 43.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 43.0
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 465.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 465.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 96.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 96.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di:BPMNLabel
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: _v7cAEIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: _v7cAEIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|a----Node name : labelStyle
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: _v7OksIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: _v7OksIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : dc:Bounds
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : height
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 15.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 15.0
+|-----|-----|-----|-----|-----|-----|a----Node name : width
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 53.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 53.0
+|-----|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 460.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 460.0
+|-----|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 144.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 144.0
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : di:BPMNShape
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : bpmnElement
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _06ghwPoUEeaQm7toDbURwA
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _06ghwPoUEeaQm7toDbURwA
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _06hv4PoUEeaQm7toDbURwA
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _06hv4PoUEeaQm7toDbURwA
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : dc:Bounds
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : height
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 60.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 60.0
+|-----|-----|-----|-----|-----|a----Node name : width
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 120.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 120.0
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 636.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 636.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 98.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 98.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : di:BPMNShape
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : bpmnElement
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _6POjsPoUEeaQm7toDbURwA
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _6POjsPoUEeaQm7toDbURwA
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _6PPx0PoUEeaQm7toDbURwA
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _6PPx0PoUEeaQm7toDbURwA
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : dc:Bounds
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : height
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 50.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 50.0
+|-----|-----|-----|-----|-----|a----Node name : width
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 100.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 100.0
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 646.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 646.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 190.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 190.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : di:BPMNEdge
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : bpmnElement
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _yOYOcPnREeaHKOaCLInE8A
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _yOYOcPnREeaHKOaCLInE8A
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _yOYOt_nREeaHKOaCLInE8A
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _yOYOt_nREeaHKOaCLInE8A
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di_1:waypoint
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 172.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 172.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 114.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 114.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di_1:waypoint
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 266.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 266.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 114.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 114.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di:BPMNLabel
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : dc:Bounds
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : height
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 0.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 0.0
+|-----|-----|-----|-----|-----|-----|a----Node name : width
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 0.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 0.0
+|-----|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 219.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 219.0
+|-----|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 104.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 104.0
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : di:BPMNEdge
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : bpmnElement
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _QSZusPoPEeaQm7toDbURwA
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _QSZusPoPEeaQm7toDbURwA
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _QSZus_oPEeaQm7toDbURwA
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _QSZus_oPEeaQm7toDbURwA
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di_1:waypoint
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 366.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 366.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 117.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 117.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di_1:waypoint
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 465.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 465.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 117.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 117.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di:BPMNLabel
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : dc:Bounds
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : height
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 0.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 0.0
+|-----|-----|-----|-----|-----|-----|a----Node name : width
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 0.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 0.0
+|-----|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 416.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 416.0
+|-----|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 107.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 107.0
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : di:BPMNEdge
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : bpmnElement
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _3XrHwPoUEeaQm7toDbURwA
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _3XrHwPoUEeaQm7toDbURwA
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _3XsV4PoUEeaQm7toDbURwA
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _3XsV4PoUEeaQm7toDbURwA
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di_1:waypoint
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 501.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 501.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 124.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 124.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di_1:waypoint
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 636.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 636.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 124.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 124.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di:BPMNLabel
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : dc:Bounds
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : height
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 15.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 15.0
+|-----|-----|-----|-----|-----|-----|a----Node name : width
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 54.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 54.0
+|-----|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 542.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 542.0
+|-----|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 107.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 107.0
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : di:BPMNEdge
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : bpmnElement
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _6v0IQPoUEeaQm7toDbURwA
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _6v0IQPoUEeaQm7toDbURwA
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _6v19cPoUEeaQm7toDbURwA
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _6v19cPoUEeaQm7toDbURwA
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di_1:waypoint
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 486.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 486.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 139.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 139.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di_1:waypoint
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 486.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 486.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 209.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 209.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di_1:waypoint
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 494.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 494.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 209.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 209.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di_1:waypoint
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 494.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 494.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 201.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 201.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di_1:waypoint
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 646.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 646.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 201.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 201.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di:BPMNLabel
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : dc:Bounds
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : height
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 15.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 15.0
+|-----|-----|-----|-----|-----|-----|a----Node name : width
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 58.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 58.0
+|-----|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 498.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 498.0
+|-----|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 184.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 184.0
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : di:BPMNEdge
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : bpmnElement
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _MsZpoPoVEeaQm7toDbURwA
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _MsZpoPoVEeaQm7toDbURwA
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _MsaQsPoVEeaQm7toDbURwA
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _MsaQsPoVEeaQm7toDbURwA
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di_1:waypoint
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 756.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 756.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 124.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 124.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di_1:waypoint
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 815.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 815.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 124.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 124.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di_1:waypoint
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 815.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 815.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 151.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 151.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di_1:waypoint
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 874.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 874.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 151.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 151.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di:BPMNLabel
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : dc:Bounds
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : height
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 0.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 0.0
+|-----|-----|-----|-----|-----|-----|a----Node name : width
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 0.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 0.0
+|-----|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 825.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 825.0
+|-----|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 138.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 138.0
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : di:BPMNEdge
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : bpmnElement
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _M_K0oPoVEeaQm7toDbURwA
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _M_K0oPoVEeaQm7toDbURwA
+|-----|-----|-----|-----|a----Node name : id
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: _M_K0o_oVEeaQm7toDbURwA
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: _M_K0o_oVEeaQm7toDbURwA
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di_1:waypoint
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 746.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 746.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 220.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 220.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di_1:waypoint
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 810.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 810.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 220.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 220.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di_1:waypoint
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 810.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 810.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 161.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 161.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di_1:waypoint
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 875.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 875.0
+|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|a----Node value: 161.0
+|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|a----|-----Node value: 161.0
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : di:BPMNLabel
+|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+          
+|-----|-----|-----|-----|-----|-----Node name : dc:Bounds
+|-----|-----|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|-----|-----|a----Node name : height
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 0.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 0.0
+|-----|-----|-----|-----|-----|-----|a----Node name : width
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 0.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 0.0
+|-----|-----|-----|-----|-----|-----|a----Node name : x
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 800.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 800.0
+|-----|-----|-----|-----|-----|-----|a----Node name : y
+|-----|-----|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|-----|-----|a----Node value: 190.0
+|-----|-----|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----|a----|-----Node value: 190.0
+|-----|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----|-----Node value: 
+        
+|-----|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : #text
+|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : di:BPMNLabelStyle
+|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----Node value: null
+|-----|-----|-----|a----Node name : id
+|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|a----Node value: _v7OksIzaEeekgYCt__ZgKQ
+|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|a----|-----Node value: _v7OksIzaEeekgYCt__ZgKQ
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+      
+|-----|-----|-----|-----Node name : dc:Font
+|-----|-----|-----|-----Node type : ELEMENT_NODE
+|-----|-----|-----|-----Node value: null
+|-----|-----|-----|-----|a----Node name : isBold
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: false
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: false
+|-----|-----|-----|-----|a----Node name : isItalic
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: false
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: false
+|-----|-----|-----|-----|a----Node name : isStrikeThrough
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: false
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: false
+|-----|-----|-----|-----|a----Node name : isUnderline
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: false
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: false
+|-----|-----|-----|-----|a----Node name : name
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: Segoe UI
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: Segoe UI
+|-----|-----|-----|-----|a----Node name : size
+|-----|-----|-----|-----|a----Node type : ATTRIBUTE_NODE
+|-----|-----|-----|-----|a----Node value: 9.0
+|-----|-----|-----|-----|a----|-----Node name : #text
+|-----|-----|-----|-----|a----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----|a----|-----Node value: 9.0
+|-----|-----|-----|-----Node name : #text
+|-----|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----|-----Node value: 
+    
+|-----|-----|-----Node name : #text
+|-----|-----|-----Node type : TEXT_NODE
+|-----|-----|-----Node value: 
+  
+|-----|-----Node name : #text
+|-----|-----Node type : TEXT_NODE
+|-----|-----Node value: 
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.339 s
+[INFO] Finished at: 2017-08-29T12:07:03-05:00
+[INFO] Final Memory: 10M/232M
+[INFO] ------------------------------------------------------------------------
