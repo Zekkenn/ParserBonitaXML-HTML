@@ -11,6 +11,13 @@ import javax.xml.parsers.DocumentBuilderFactory;
 
 //These classes read the sample XML file and manage output:
 import java.io.File;
+import java.io.FileOutputStream;
+import java.io.OutputStream;
+import javax.xml.transform.Source;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.stream.StreamResult;
+import javax.xml.transform.stream.StreamSource;
 
 //Finally, import the W3C definitions for a DOM, DOM exceptions, entities and nodes:
 import org.w3c.dom.Document;
@@ -32,18 +39,29 @@ public class xmlechoparser {
 
     public static void main(String[] args) throws Exception {
         String filename = "test.bpmn";
+        
+        TransformerFactory tFactory=TransformerFactory.newInstance();
+
+        Source xslDoc=new StreamSource("formatToHtml.xsl");
+        Source xmlDoc=new StreamSource("test1.bpmn");
+
+        String outputFileName="CompanyInfo.html";
+
+        OutputStream htmlFile=new FileOutputStream(outputFileName);
+        Transformer trasform=tFactory.newTransformer(xslDoc);
+        trasform.transform(xmlDoc, new StreamResult(htmlFile));
 
         // Retire el false para hacer un programa que se innvoque desde la linea de comandos
-        if (args.length < 1 && false) {
-            usage();
-        } else {
-
-            DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
-            DocumentBuilder db = dbf.newDocumentBuilder();
-            //filename = args[0]; 
-            Document doc = db.parse(new File(filename));
-            navigate(doc);
-        }
+//        if (args.length < 1 && false) {
+//            usage();
+//        } else {
+//
+//            DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+//            DocumentBuilder db = dbf.newDocumentBuilder();
+//            //filename = args[0]; 
+//            Document doc = db.parse(new File(filename));
+//            navigate(doc);
+//        }
     }
 
     private static void navigate(Node n) {
