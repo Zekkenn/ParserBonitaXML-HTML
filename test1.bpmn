@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bonitaConnector="http://www.bonitasoft.org/studio/connector/definition/6.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di_1="http://www.omg.org/spec/DD/20100524/DI" xmlns:java="http://jcp.org/en/jsr/detail?id=270" xmlns:model="http://www.omg.org/spec/BPMN/20100524/MODEL" xsi:schemaLocation="schemaLocation http://www.omg.org/spec/BPMN/20100524/MODEL schemas/BPMN20.xsd" exporter="BonitaSoft" exporterVersion="7.3.3" expressionLanguage="http://groovy.codehaus.org/" targetNamespace="http://bonitasoft.com/_YlU4gI6LEeeJt5EnBIsasw">
+<model:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bonitaConnector="http://www.bonitasoft.org/studio/connector/definition/6.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di_1="http://www.omg.org/spec/DD/20100524/DI" xmlns:java="http://jcp.org/en/jsr/detail?id=270" xmlns:model="http://www.omg.org/spec/BPMN/20100524/MODEL" xsi:schemaLocation="schemaLocation http://www.omg.org/spec/BPMN/20100524/MODEL schemas/BPMN20.xsd" exporter="BonitaSoft" exporterVersion="7.5.4" expressionLanguage="http://groovy.codehaus.org/" targetNamespace="http://bonitasoft.com/_YlU4gI6LEeeJt5EnBIsasw">
   <model:collaboration id="_YlU4gI6LEeeJt5EnBIsasw">
-    <model:participant id="_Od8bAI6aEeeJt5EnBIsasw" name="AfiliacionACompañia" processRef="_YlU4gY6LEeeJt5EnBIsasw"/>
-    <model:participant id="_YlVftY6LEeeJt5EnBIsasw" name="Employee actor">
-      <model:documentation>This is an example of actor that is mapped to any ACME users</model:documentation>
+    <model:participant id="_IdDA8I-JEeew5YZL3Vao4Q" name="AfiliacionACompañia" processRef="_YlU4gY6LEeeJt5EnBIsasw"/>
+    <model:participant id="_b72ucI6WEeeJt5EnBIsasw" name="Agente Lavado de Activos">
+      <model:documentation>Representa al encargado de validar informacion en el sistema AML en el área de lavado de activos</model:documentation>
     </model:participant>
-    <model:participant id="_b72ucI6WEeeJt5EnBIsasw" name="Agente Lavado de Activos"/>
-    <model:participant id="_Od_eUY6aEeeJt5EnBIsasw" name="VerificacionTraslado" processRef="_nr_VoI6LEeeJt5EnBIsasw"/>
+    <model:participant id="_TudH8I-CEeew5YZL3Vao4Q" name="Asesor Comercial">
+      <model:documentation>Representa al asesor comercial que recibe la solicitud para afiliacion y entrega la respuesta de aceptacion</model:documentation>
+    </model:participant>
+    <model:participant id="_IdIggI-JEeew5YZL3Vao4Q" name="VerificacionTraslado" processRef="_nr_VoI6LEeeJt5EnBIsasw"/>
+    <model:participant id="_2fDZEI-CEeew5YZL3Vao4Q" name="Contratista">
+      <model:documentation>Representa a un agente externo a la compañia que es contratado por trabajos especificos, en este caso, digitalizar una afiliacion en una plantilla</model:documentation>
+    </model:participant>
   </model:collaboration>
   <model:process id="_YlU4gY6LEeeJt5EnBIsasw" name="AfiliacionACompañia">
-    <model:ioSpecification id="_Od8bA46aEeeJt5EnBIsasw">
-      <model:inputSet id="_Od8bBI6aEeeJt5EnBIsasw"/>
-      <model:outputSet id="_Od8bBY6aEeeJt5EnBIsasw"/>
+    <model:ioSpecification id="_IdDA84-JEeew5YZL3Vao4Q">
+      <model:inputSet id="_IdDA9I-JEeew5YZL3Vao4Q"/>
+      <model:outputSet id="_IdDA9Y-JEeew5YZL3Vao4Q"/>
     </model:ioSpecification>
     <model:laneSet id="AfiliacionACompañia_laneSet">
       <model:lane id="_YlU4go6LEeeJt5EnBIsasw" name="Asesor Comercial">
+        <model:documentation>Representa el asesor comercial de la empresa</model:documentation>
         <model:flowNodeRef>_YlU4g46LEeeJt5EnBIsasw</model:flowNodeRef>
         <model:flowNodeRef>_nt92II6MEeeJt5EnBIsasw</model:flowNodeRef>
         <model:flowNodeRef>_2yMDQI6MEeeJt5EnBIsasw</model:flowNodeRef>
@@ -29,9 +35,11 @@
         <model:flowNodeRef>_6MUU4I6ZEeeJt5EnBIsasw</model:flowNodeRef>
       </model:lane>
       <model:lane id="_9xuEYI6QEeeJt5EnBIsasw" name="Área de Afiliaciones">
+        <model:documentation>Representa el área de afiliaciones encargada de gestionar las afiliaciones entrantes y las cancelaciones de las mismas</model:documentation>
         <model:flowNodeRef>_Fjsc0I6aEeeJt5EnBIsasw</model:flowNodeRef>
       </model:lane>
       <model:lane id="_zPu6EI6VEeeJt5EnBIsasw" name="Lavado de Activos">
+        <model:documentation>Representa el área de lavado de activos de la empreasa, vinculando las cuentas con los productos</model:documentation>
         <model:flowNodeRef>_E6BxkI6WEeeJt5EnBIsasw</model:flowNodeRef>
         <model:flowNodeRef>_F3vXAI6WEeeJt5EnBIsasw</model:flowNodeRef>
         <model:flowNodeRef>_JkNW0I6YEeeJt5EnBIsasw</model:flowNodeRef>
@@ -59,50 +67,73 @@
     <model:userTask id="_pjS74I6TEeeJt5EnBIsasw" name="Registrar Fotocopia cédula">
       <model:documentation>Es necesario contar con una fotocopia de la cédula del prospecto.</model:documentation>
     </model:userTask>
-    <model:userTask id="_rawXUI6UEeeJt5EnBIsasw" name="Esperar por Validacion de datos"/>
+    <model:userTask id="_rawXUI6UEeeJt5EnBIsasw" name="Esperar por Validacion de datos">
+      <model:documentation>Se validan los datos en busca de errores</model:documentation>
+    </model:userTask>
     <model:boundaryEvent id="_swJqsI6ZEeeJt5EnBIsasw" name="Espera por validacion" attachedToRef="_rawXUI6UEeeJt5EnBIsasw" cancelActivity="false">
+      <model:documentation>Espera que se despliega en tres dias si es el caso</model:documentation>
       <model:timerEventDefinition id="eventdef-Espera por validacion">
         <model:timeCycle>259200000L</model:timeCycle>
       </model:timerEventDefinition>
     </model:boundaryEvent>
-    <model:exclusiveGateway id="_NflHkI6VEeeJt5EnBIsasw" name="Error en la afiliacion?" default="_lKzmwI6VEeeJt5EnBIsasw"/>
+    <model:exclusiveGateway id="_NflHkI6VEeeJt5EnBIsasw" name="Error en la afiliacion?" default="_lKzmwI6VEeeJt5EnBIsasw">
+      <model:documentation>Se espera la validacion del asesor par ver si hay errores en la afiliacion</model:documentation>
+    </model:exclusiveGateway>
     <model:userTask id="_wcpAAI6YEeeJt5EnBIsasw" name="Comprobar Validación Cliente">
       <model:documentation>Llamar al contact center para que verifiquen si se puede afiliar o trasladar al cliente.</model:documentation>
     </model:userTask>
     <model:boundaryEvent id="_qXRHwI6ZEeeJt5EnBIsasw" name="Esperar por Verificacion de Afiliacion" attachedToRef="_wcpAAI6YEeeJt5EnBIsasw" cancelActivity="false">
+      <model:documentation>Espera que se despliega en tres dias si es el caso</model:documentation>
       <model:timerEventDefinition id="eventdef-Esperar por Verificacion de Afiliacion">
         <model:timeCycle>259200000L</model:timeCycle>
       </model:timerEventDefinition>
     </model:boundaryEvent>
-    <model:serviceTask id="_1t1-cI6ZEeeJt5EnBIsasw" name="Notificar al Gerente Comercial"/>
-    <model:serviceTask id="_6MUU4I6ZEeeJt5EnBIsasw" name="Notificar al Gerente de Afiliaciones"/>
-    <model:serviceTask id="_Fjsc0I6aEeeJt5EnBIsasw" name="Enviar Solicitud al Contratista"/>
-    <model:userTask id="_E6BxkI6WEeeJt5EnBIsasw" name="Validacion en Sistema AML"/>
+    <model:serviceTask id="_1t1-cI6ZEeeJt5EnBIsasw" name="Notificar al Gerente Comercial">
+      <model:documentation>Notificacion para el gerente comercial si la validacion a un cliente se demora mas de 3 dias</model:documentation>
+    </model:serviceTask>
+    <model:serviceTask id="_6MUU4I6ZEeeJt5EnBIsasw" name="Notificar al Gerente de Afiliaciones">
+      <model:documentation>Notificacion al gerente de afiliaciones si la validacion de datos se demora mas de 3 dias</model:documentation>
+    </model:serviceTask>
+    <model:serviceTask id="_Fjsc0I6aEeeJt5EnBIsasw" name="Enviar Solicitud al Contratista">
+      <model:documentation> Se envia al contratista para que la digitalice en un sistema denominado Afiliaciones</model:documentation>
+    </model:serviceTask>
+    <model:userTask id="_E6BxkI6WEeeJt5EnBIsasw" name="Validacion en Sistema AML">
+      <model:documentation>Se valida en un sistema AML en busca de posible lavado de activos</model:documentation>
+    </model:userTask>
     <model:boundaryEvent id="_D6anUI6ZEeeJt5EnBIsasw" name="Tiempo para generar la validacion" attachedToRef="_E6BxkI6WEeeJt5EnBIsasw" cancelActivity="false">
+      <model:documentation>Espera que se despliega en tres dias si es el caso</model:documentation>
       <model:timerEventDefinition id="eventdef-Tiempo para generar la validacion">
         <model:timeCycle>259200000L</model:timeCycle>
       </model:timerEventDefinition>
     </model:boundaryEvent>
-    <model:exclusiveGateway id="_F3vXAI6WEeeJt5EnBIsasw" name="Solicitud rechazada?" default="_eX8rgI6YEeeJt5EnBIsasw"/>
-    <model:serviceTask id="_JkNW0I6YEeeJt5EnBIsasw" name="Notificar por solicitud rechazada"/>
+    <model:exclusiveGateway id="_F3vXAI6WEeeJt5EnBIsasw" name="Solicitud rechazada?" default="_eX8rgI6YEeeJt5EnBIsasw">
+      <model:documentation>Si la solicitud es rechazada por el sistema de AML, se informa el rechazo, de lo contrario se procede con el ultimo paso</model:documentation>
+    </model:exclusiveGateway>
+    <model:serviceTask id="_JkNW0I6YEeeJt5EnBIsasw" name="Notificar por solicitud rechazada">
+      <model:documentation>Se notifica el rechazo de la creacion de la cuenta</model:documentation>
+    </model:serviceTask>
     <model:endEvent id="_amSG0I6PEeeJt5EnBIsasw" name="AfiliacionSatisfactoria">
       <model:documentation>La afiliacion del cliente con la compañia fue completada.</model:documentation>
     </model:endEvent>
-    <model:serviceTask id="_-IdaUI6ZEeeJt5EnBIsasw" name="Notificar al Jefe de AML"/>
-    <model:userTask id="_I_ywQI6aEeeJt5EnBIsasw" name="Crear Cuentas de Productos"/>
+    <model:serviceTask id="_-IdaUI6ZEeeJt5EnBIsasw" name="Notificar al Jefe de AML">
+      <model:documentation>De demorarse mas de tres dias esta nueva validacion se notifica al jefe de AML</model:documentation>
+    </model:serviceTask>
+    <model:userTask id="_I_ywQI6aEeeJt5EnBIsasw" name="Crear Cuentas de Productos">
+      <model:documentation>Se crean las cuentas para los productos comprados en la afiliacion que previamente fue aprovaba</model:documentation>
+    </model:userTask>
     <model:sequenceFlow id="_NxKV4I6MEeeJt5EnBIsasw" name="" sourceRef="_YlU4g46LEeeJt5EnBIsasw" targetRef="_wcpAAI6YEeeJt5EnBIsasw"/>
     <model:sequenceFlow id="_e0IusI6MEeeJt5EnBIsasw" name="" sourceRef="_wcpAAI6YEeeJt5EnBIsasw" targetRef="_NhLHMI6OEeeJt5EnBIsasw"/>
     <model:sequenceFlow id="_nuO74I6MEeeJt5EnBIsasw" name="No" sourceRef="_NhLHMI6OEeeJt5EnBIsasw" targetRef="_nt92II6MEeeJt5EnBIsasw">
-      <model:conditionExpression xsi:type="model:tFormalExpression" id="_Od-3QY6aEeeJt5EnBIsasw" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath">true</model:conditionExpression>
+      <model:conditionExpression xsi:type="model:tFormalExpression" id="_IdHSYI-JEeew5YZL3Vao4Q" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath">true</model:conditionExpression>
     </model:sequenceFlow>
     <model:sequenceFlow id="_0Cs-MI6MEeeJt5EnBIsasw" name="Si" sourceRef="_NhLHMI6OEeeJt5EnBIsasw" targetRef="_2yMDQI6MEeeJt5EnBIsasw">
-      <model:conditionExpression xsi:type="model:tFormalExpression" id="_Od-3Qo6aEeeJt5EnBIsasw" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath"></model:conditionExpression>
+      <model:conditionExpression xsi:type="model:tFormalExpression" id="_IdHSYY-JEeew5YZL3Vao4Q" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath"></model:conditionExpression>
     </model:sequenceFlow>
     <model:sequenceFlow id="_xbtb4I6OEeeJt5EnBIsasw" name="" sourceRef="_2yMDQI6MEeeJt5EnBIsasw" targetRef="_o4frYI6TEeeJt5EnBIsasw">
-      <model:conditionExpression xsi:type="model:tFormalExpression" id="_Od-3Q46aEeeJt5EnBIsasw" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath"></model:conditionExpression>
+      <model:conditionExpression xsi:type="model:tFormalExpression" id="_IdHSYo-JEeew5YZL3Vao4Q" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath"></model:conditionExpression>
     </model:sequenceFlow>
     <model:sequenceFlow id="_55Yy0I6OEeeJt5EnBIsasw" name="" sourceRef="_2yMDQI6MEeeJt5EnBIsasw" targetRef="_pjS74I6TEeeJt5EnBIsasw">
-      <model:conditionExpression xsi:type="model:tFormalExpression" id="_Od-3RI6aEeeJt5EnBIsasw" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath"></model:conditionExpression>
+      <model:conditionExpression xsi:type="model:tFormalExpression" id="_IdHSY4-JEeew5YZL3Vao4Q" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath"></model:conditionExpression>
     </model:sequenceFlow>
     <model:sequenceFlow id="_7NT40I6OEeeJt5EnBIsasw" name="" sourceRef="_pjS74I6TEeeJt5EnBIsasw" targetRef="_rEgpQI6OEeeJt5EnBIsasw"/>
     <model:sequenceFlow id="_8DZMQI6OEeeJt5EnBIsasw" name="" sourceRef="_o4frYI6TEeeJt5EnBIsasw" targetRef="_rEgpQI6OEeeJt5EnBIsasw"/>
@@ -110,41 +141,44 @@
     <model:sequenceFlow id="_3kb7YI6TEeeJt5EnBIsasw" name="" sourceRef="_Fjsc0I6aEeeJt5EnBIsasw" targetRef="_rawXUI6UEeeJt5EnBIsasw"/>
     <model:sequenceFlow id="_HHqjQI6VEeeJt5EnBIsasw" name="" sourceRef="_rawXUI6UEeeJt5EnBIsasw" targetRef="_NflHkI6VEeeJt5EnBIsasw"/>
     <model:sequenceFlow id="_d2Xv0I6VEeeJt5EnBIsasw" name="Si" sourceRef="_NflHkI6VEeeJt5EnBIsasw" targetRef="_2yMDQI6MEeeJt5EnBIsasw">
-      <model:conditionExpression xsi:type="model:tFormalExpression" id="_Od-3RY6aEeeJt5EnBIsasw" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath">true</model:conditionExpression>
+      <model:conditionExpression xsi:type="model:tFormalExpression" id="_IdH5cI-JEeew5YZL3Vao4Q" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath">true</model:conditionExpression>
     </model:sequenceFlow>
     <model:sequenceFlow id="_lKzmwI6VEeeJt5EnBIsasw" name="No" sourceRef="_NflHkI6VEeeJt5EnBIsasw" targetRef="_E6BxkI6WEeeJt5EnBIsasw">
-      <model:conditionExpression xsi:type="model:tFormalExpression" id="_Od-3Ro6aEeeJt5EnBIsasw" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath"></model:conditionExpression>
+      <model:conditionExpression xsi:type="model:tFormalExpression" id="_IdH5cY-JEeew5YZL3Vao4Q" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath"></model:conditionExpression>
     </model:sequenceFlow>
     <model:sequenceFlow id="_FhGYoI6WEeeJt5EnBIsasw" name="" sourceRef="_E6BxkI6WEeeJt5EnBIsasw" targetRef="_F3vXAI6WEeeJt5EnBIsasw">
-      <model:conditionExpression xsi:type="model:tFormalExpression" id="_Od-3R46aEeeJt5EnBIsasw" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath"></model:conditionExpression>
+      <model:conditionExpression xsi:type="model:tFormalExpression" id="_IdH5co-JEeew5YZL3Vao4Q" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath"></model:conditionExpression>
     </model:sequenceFlow>
     <model:sequenceFlow id="_HA7XMI6XEeeJt5EnBIsasw" name="" sourceRef="_JkNW0I6YEeeJt5EnBIsasw" targetRef="_nt92II6MEeeJt5EnBIsasw">
-      <model:conditionExpression xsi:type="model:tFormalExpression" id="_Od-3SI6aEeeJt5EnBIsasw" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath"></model:conditionExpression>
+      <model:conditionExpression xsi:type="model:tFormalExpression" id="_IdH5c4-JEeew5YZL3Vao4Q" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath"></model:conditionExpression>
     </model:sequenceFlow>
     <model:sequenceFlow id="_gsiZwI6XEeeJt5EnBIsasw" name="Si" sourceRef="_F3vXAI6WEeeJt5EnBIsasw" targetRef="_JkNW0I6YEeeJt5EnBIsasw">
-      <model:conditionExpression xsi:type="model:tFormalExpression" id="_Od-3SY6aEeeJt5EnBIsasw" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath">true</model:conditionExpression>
+      <model:conditionExpression xsi:type="model:tFormalExpression" id="_IdH5dI-JEeew5YZL3Vao4Q" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath">true</model:conditionExpression>
     </model:sequenceFlow>
     <model:sequenceFlow id="_eX8rgI6YEeeJt5EnBIsasw" name="No" sourceRef="_F3vXAI6WEeeJt5EnBIsasw" targetRef="_I_ywQI6aEeeJt5EnBIsasw">
-      <model:conditionExpression xsi:type="model:tFormalExpression" id="_Od-3So6aEeeJt5EnBIsasw" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath"></model:conditionExpression>
+      <model:documentation>Se valida y se aprueba una vez mas la solicitud</model:documentation>
+      <model:conditionExpression xsi:type="model:tFormalExpression" id="_IdH5dY-JEeew5YZL3Vao4Q" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath"></model:conditionExpression>
     </model:sequenceFlow>
     <model:sequenceFlow id="_o4GQgI6YEeeJt5EnBIsasw" name="" sourceRef="_I_ywQI6aEeeJt5EnBIsasw" targetRef="_amSG0I6PEeeJt5EnBIsasw">
-      <model:conditionExpression xsi:type="model:tFormalExpression" id="_Od_eUI6aEeeJt5EnBIsasw" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath"></model:conditionExpression>
+      <model:conditionExpression xsi:type="model:tFormalExpression" id="_IdH5do-JEeew5YZL3Vao4Q" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath"></model:conditionExpression>
     </model:sequenceFlow>
     <model:sequenceFlow id="_1t3zoI6ZEeeJt5EnBIsasw" name="" sourceRef="_qXRHwI6ZEeeJt5EnBIsasw" targetRef="_1t1-cI6ZEeeJt5EnBIsasw"/>
     <model:sequenceFlow id="_6MWxII6ZEeeJt5EnBIsasw" name="" sourceRef="_swJqsI6ZEeeJt5EnBIsasw" targetRef="_6MUU4I6ZEeeJt5EnBIsasw"/>
     <model:sequenceFlow id="_-If2kI6ZEeeJt5EnBIsasw" name="" sourceRef="_D6anUI6ZEeeJt5EnBIsasw" targetRef="_-IdaUI6ZEeeJt5EnBIsasw"/>
   </model:process>
   <model:process id="_nr_VoI6LEeeJt5EnBIsasw" name="VerificacionTraslado">
-    <model:ioSpecification id="_Od_eU46aEeeJt5EnBIsasw">
-      <model:inputSet id="_Od_eVI6aEeeJt5EnBIsasw"/>
-      <model:outputSet id="_Od_eVY6aEeeJt5EnBIsasw"/>
+    <model:ioSpecification id="_IdIggo-JEeew5YZL3Vao4Q">
+      <model:inputSet id="_IdIgg4-JEeew5YZL3Vao4Q"/>
+      <model:outputSet id="_IdIghI-JEeew5YZL3Vao4Q"/>
     </model:ioSpecification>
     <model:laneSet id="VerificacionTraslado_laneSet">
       <model:lane id="_r1GgEI6LEeeJt5EnBIsasw" name="Contact Center">
+        <model:documentation>Entidad externa a la empresa que valida datos respecto al transpaso de afiliaciones</model:documentation>
         <model:flowNodeRef>_E4baoI6MEeeJt5EnBIsasw</model:flowNodeRef>
         <model:flowNodeRef>_STbjAI6TEeeJt5EnBIsasw</model:flowNodeRef>
       </model:lane>
       <model:lane id="_QHMU8I6TEeeJt5EnBIsasw" name="Contratista">
+        <model:documentation>Entidad externa a la empresa, contratada para trabajos especiales.</model:documentation>
         <model:flowNodeRef>_Wun78I6TEeeJt5EnBIsasw</model:flowNodeRef>
       </model:lane>
     </model:laneSet>
@@ -156,117 +190,117 @@
   </model:process>
   <di:BPMNDiagram name="Afiliaciones a la compañia">
     <di:BPMNPlane id="plane__YlU4gI6LEeeJt5EnBIsasw" bpmnElement="_YlU4gI6LEeeJt5EnBIsasw">
-      <di:BPMNShape id="_YlVf0I6LEeeJt5EnBIsasw" bpmnElement="_Od8bAI6aEeeJt5EnBIsasw" isHorizontal="true">
-        <dc:Bounds height="325.0" width="514.0" x="7.0" y="7.0"/>
+      <di:BPMNShape id="_YlVf0I6LEeeJt5EnBIsasw" bpmnElement="_IdDA8I-JEeew5YZL3Vao4Q" isHorizontal="true">
+        <dc:Bounds height="973.0" width="1541.0" x="22.0" y="22.0"/>
       </di:BPMNShape>
-      <di:BPMNShape id="_YlVf046LEeeJt5EnBIsasw" bpmnElement="_YlU4go6LEeeJt5EnBIsasw" isHorizontal="true">
-        <dc:Bounds height="115.0" width="508.0" x="43.0" y="7.0"/>
+      <di:BPMNShape id="_0_JiB4-BEeew5YZL3Vao4Q" bpmnElement="_YlU4go6LEeeJt5EnBIsasw" isHorizontal="true">
+        <dc:Bounds height="343.0" width="1524.0" x="49.0" y="23.0"/>
       </di:BPMNShape>
       <di:BPMNShape id="_YlVf2Y6LEeeJt5EnBIsasw" bpmnElement="_YlU4g46LEeeJt5EnBIsasw">
-        <dc:Bounds height="8.0" width="8.0" x="58.0" y="35.0"/>
-        <di:BPMNLabel id="_Od8bB46aEeeJt5EnBIsasw" labelStyle="_Od8bAY6aEeeJt5EnBIsasw">
-          <dc:Bounds height="5.0" width="23.0" x="50.0" y="43.0"/>
+        <dc:Bounds height="23.0" width="23.0" x="94.0" y="106.0"/>
+        <di:BPMNLabel id="_IdDoAI-JEeew5YZL3Vao4Q" labelStyle="_IdDA8Y-JEeew5YZL3Vao4Q">
+          <dc:Bounds height="12.0" width="68.0" x="71.0" y="132.0"/>
         </di:BPMNLabel>
       </di:BPMNShape>
       <di:BPMNShape id="_nt_EQI6MEeeJt5EnBIsasw" bpmnElement="_nt92II6MEeeJt5EnBIsasw">
-        <dc:Bounds height="8.0" width="8.0" x="400.0" y="14.0"/>
-        <di:BPMNLabel id="_Od8bCI6aEeeJt5EnBIsasw" labelStyle="_Od8bAY6aEeeJt5EnBIsasw">
-          <dc:Bounds height="4.0" width="27.0" x="391.0" y="23.0"/>
+        <dc:Bounds height="24.0" width="23.0" x="1121.0" y="43.0"/>
+        <di:BPMNLabel id="_IdDoAY-JEeew5YZL3Vao4Q" labelStyle="_IdDA8Y-JEeew5YZL3Vao4Q">
+          <dc:Bounds height="12.0" width="81.0" x="1093.0" y="70.0"/>
         </di:BPMNLabel>
       </di:BPMNShape>
       <di:BPMNShape id="_2yMqXo6MEeeJt5EnBIsasw" bpmnElement="_2yMDQI6MEeeJt5EnBIsasw">
-        <dc:Bounds height="13.0" width="26.0" x="172.0" y="47.0"/>
+        <dc:Bounds height="39.0" width="76.0" x="437.0" y="142.0"/>
       </di:BPMNShape>
       <di:BPMNShape id="_NhLuRI6OEeeJt5EnBIsasw" bpmnElement="_NhLHMI6OEeeJt5EnBIsasw">
-        <dc:Bounds height="12.0" width="11.0" x="139.0" y="34.0"/>
-        <di:BPMNLabel id="_Od8bCo6aEeeJt5EnBIsasw" labelStyle="_Od8bAY6aEeeJt5EnBIsasw">
-          <dc:Bounds height="5.0" width="27.0" x="131.0" y="46.0"/>
+        <dc:Bounds height="33.0" width="33.0" x="337.0" y="104.0"/>
+        <di:BPMNLabel id="_IdDoA4-JEeew5YZL3Vao4Q" labelStyle="_IdDA8Y-JEeew5YZL3Vao4Q">
+          <dc:Bounds height="12.0" width="78.0" x="315.0" y="140.0"/>
         </di:BPMNLabel>
       </di:BPMNShape>
       <di:BPMNShape id="_rEhQVI6OEeeJt5EnBIsasw" bpmnElement="_rEgpQI6OEeeJt5EnBIsasw">
-        <dc:Bounds height="11.0" width="12.0" x="259.0" y="50.0"/>
-        <di:BPMNLabel id="_Od8bC46aEeeJt5EnBIsasw" labelStyle="_Od8bAY6aEeeJt5EnBIsasw">
-          <dc:Bounds height="4.0" width="26.0" x="252.0" y="62.0"/>
+        <dc:Bounds height="33.0" width="33.0" x="698.0" y="151.0"/>
+        <di:BPMNLabel id="_IdDoBI-JEeew5YZL3Vao4Q" labelStyle="_IdDA8Y-JEeew5YZL3Vao4Q">
+          <dc:Bounds height="12.0" width="77.0" x="676.0" y="187.0"/>
         </di:BPMNLabel>
       </di:BPMNShape>
       <di:BPMNShape id="_o4gScI6TEeeJt5EnBIsasw" bpmnElement="_o4frYI6TEeeJt5EnBIsasw">
-        <dc:Bounds height="16.0" width="31.0" x="215.0" y="33.0"/>
+        <dc:Bounds height="46.0" width="91.0" x="565.0" y="102.0"/>
       </di:BPMNShape>
       <di:BPMNShape id="_pjTi8I6TEeeJt5EnBIsasw" bpmnElement="_pjS74I6TEeeJt5EnBIsasw">
-        <dc:Bounds height="16.0" width="31.0" x="215.0" y="60.0"/>
+        <dc:Bounds height="46.0" width="91.0" x="565.0" y="183.0"/>
       </di:BPMNShape>
       <di:BPMNShape id="_raw-bo6UEeeJt5EnBIsasw" bpmnElement="_rawXUI6UEeeJt5EnBIsasw">
-        <dc:Bounds height="16.0" width="31.0" x="305.0" y="71.0"/>
+        <dc:Bounds height="46.0" width="91.0" x="836.0" y="214.0"/>
       </di:BPMNShape>
       <di:BPMNShape id="_swLf4I6ZEeeJt5EnBIsasw" bpmnElement="_swJqsI6ZEeeJt5EnBIsasw">
-        <dc:Bounds height="7.0" width="7.0" x="310.0" y="84.0"/>
+        <dc:Bounds height="20.0" width="20.0" x="851.0" y="253.0"/>
       </di:BPMNShape>
       <di:BPMNShape id="_NflupI6VEeeJt5EnBIsasw" bpmnElement="_NflHkI6VEeeJt5EnBIsasw">
-        <dc:Bounds height="11.0" width="11.0" x="315.0" y="45.0"/>
-        <di:BPMNLabel id="_Od-QMY6aEeeJt5EnBIsasw" labelStyle="_Od8bAY6aEeeJt5EnBIsasw">
-          <dc:Bounds height="4.0" width="28.0" x="306.0" y="57.0"/>
+        <dc:Bounds height="33.0" width="33.0" x="865.0" y="136.0"/>
+        <di:BPMNLabel id="_IdE2II-JEeew5YZL3Vao4Q" labelStyle="_IdDA8Y-JEeew5YZL3Vao4Q">
+          <dc:Bounds height="12.0" width="83.0" x="839.0" y="172.0"/>
         </di:BPMNLabel>
       </di:BPMNShape>
       <di:BPMNShape id="_wcpAD46YEeeJt5EnBIsasw" bpmnElement="_wcpAAI6YEeeJt5EnBIsasw">
-        <dc:Bounds height="16.0" width="30.0" x="87.0" y="32.0"/>
+        <dc:Bounds height="46.0" width="90.0" x="181.0" y="97.0"/>
       </di:BPMNShape>
       <di:BPMNShape id="_qXS88I6ZEeeJt5EnBIsasw" bpmnElement="_qXRHwI6ZEeeJt5EnBIsasw">
-        <dc:Bounds height="7.0" width="7.0" x="92.0" y="45.0"/>
+        <dc:Bounds height="20.0" width="19.0" x="196.0" y="136.0"/>
       </di:BPMNShape>
       <di:BPMNShape id="_1t2lgI6ZEeeJt5EnBIsasw" bpmnElement="_1t1-cI6ZEeeJt5EnBIsasw">
-        <dc:Bounds height="16.0" width="31.0" x="122.0" y="75.0"/>
+        <dc:Bounds height="46.0" width="91.0" x="288.0" y="227.0"/>
       </di:BPMNShape>
       <di:BPMNShape id="_6MU7-Y6ZEeeJt5EnBIsasw" bpmnElement="_6MUU4I6ZEeeJt5EnBIsasw">
-        <dc:Bounds height="16.0" width="30.0" x="239.0" y="90.0"/>
+        <dc:Bounds height="45.0" width="91.0" x="665.0" y="286.0"/>
       </di:BPMNShape>
-      <di:BPMNShape id="_9xvSgI6QEeeJt5EnBIsasw" bpmnElement="_9xuEYI6QEeeJt5EnBIsasw" isHorizontal="true">
-        <dc:Bounds height="118.0" width="508.0" x="43.0" y="121.0"/>
+      <di:BPMNShape id="_0_JiD4-BEeew5YZL3Vao4Q" bpmnElement="_9xuEYI6QEeeJt5EnBIsasw" isHorizontal="true">
+        <dc:Bounds height="352.0" width="1524.0" x="49.0" y="365.0"/>
       </di:BPMNShape>
       <di:BPMNShape id="_Fjsc2o6aEeeJt5EnBIsasw" bpmnElement="_Fjsc0I6aEeeJt5EnBIsasw">
-        <dc:Bounds height="16.0" width="30.0" x="270.0" y="157.0"/>
+        <dc:Bounds height="46.0" width="90.0" x="730.0" y="473.0"/>
       </di:BPMNShape>
-      <di:BPMNShape id="_zPvhII6VEeeJt5EnBIsasw" bpmnElement="_zPu6EI6VEeeJt5EnBIsasw" isHorizontal="true">
-        <dc:Bounds height="94.0" width="508.0" x="43.0" y="238.0"/>
+      <di:BPMNShape id="_0_JiF4-BEeew5YZL3Vao4Q" bpmnElement="_zPu6EI6VEeeJt5EnBIsasw" isHorizontal="true">
+        <dc:Bounds height="280.0" width="1524.0" x="49.0" y="716.0"/>
       </di:BPMNShape>
       <di:BPMNShape id="_E6Bxn46WEeeJt5EnBIsasw" bpmnElement="_E6BxkI6WEeeJt5EnBIsasw">
-        <dc:Bounds height="18.0" width="36.0" x="348.0" y="244.0"/>
+        <dc:Bounds height="53.0" width="106.0" x="964.0" y="733.0"/>
       </di:BPMNShape>
       <di:BPMNShape id="_D6dDkI6ZEeeJt5EnBIsasw" bpmnElement="_D6anUI6ZEeeJt5EnBIsasw">
-        <dc:Bounds height="7.0" width="7.0" x="354.0" y="259.0"/>
+        <dc:Bounds height="20.0" width="19.0" x="982.0" y="779.0"/>
       </di:BPMNShape>
       <di:BPMNShape id="_F3v-FI6WEeeJt5EnBIsasw" bpmnElement="_F3vXAI6WEeeJt5EnBIsasw">
-        <dc:Bounds height="11.0" width="12.0" x="395.0" y="283.0"/>
-        <di:BPMNLabel id="_Od-QO46aEeeJt5EnBIsasw" labelStyle="_Od8bAY6aEeeJt5EnBIsasw">
-          <dc:Bounds height="4.0" width="28.0" x="387.0" y="295.0"/>
+        <dc:Bounds height="33.0" width="33.0" x="1107.0" y="850.0"/>
+        <di:BPMNLabel id="_IdGrUY-JEeew5YZL3Vao4Q" labelStyle="_IdDA8Y-JEeew5YZL3Vao4Q">
+          <dc:Bounds height="12.0" width="82.0" x="1082.0" y="886.0"/>
         </di:BPMNLabel>
       </di:BPMNShape>
       <di:BPMNShape id="_JkNW2o6YEeeJt5EnBIsasw" bpmnElement="_JkNW0I6YEeeJt5EnBIsasw">
-        <dc:Bounds height="16.0" width="32.0" x="407.0" y="244.0"/>
+        <dc:Bounds height="47.0" width="94.0" x="1141.0" y="734.0"/>
       </di:BPMNShape>
       <di:BPMNShape id="_amTU8I6PEeeJt5EnBIsasw" bpmnElement="_amSG0I6PEeeJt5EnBIsasw">
-        <dc:Bounds height="9.0" width="8.0" x="514.0" y="268.0"/>
-        <di:BPMNLabel id="_Od-QPY6aEeeJt5EnBIsasw" labelStyle="_Od8bAY6aEeeJt5EnBIsasw">
-          <dc:Bounds height="5.0" width="29.0" x="504.0" y="277.0"/>
+        <dc:Bounds height="23.0" width="23.0" x="1463.0" y="807.0"/>
+        <di:BPMNLabel id="_IdGrU4-JEeew5YZL3Vao4Q" labelStyle="_IdDA8Y-JEeew5YZL3Vao4Q">
+          <dc:Bounds height="12.0" width="87.0" x="1432.0" y="833.0"/>
         </di:BPMNLabel>
       </di:BPMNShape>
       <di:BPMNShape id="_-IeBaY6ZEeeJt5EnBIsasw" bpmnElement="_-IdaUI6ZEeeJt5EnBIsasw">
-        <dc:Bounds height="16.0" width="31.0" x="284.0" y="256.0"/>
+        <dc:Bounds height="46.0" width="91.0" x="773.0" y="770.0"/>
       </di:BPMNShape>
       <di:BPMNShape id="_I_zXXo6aEeeJt5EnBIsasw" bpmnElement="_I_ywQI6aEeeJt5EnBIsasw">
-        <dc:Bounds height="17.0" width="31.0" x="448.0" y="287.0"/>
+        <dc:Bounds height="47.0" width="93.0" x="1264.0" y="864.0"/>
       </di:BPMNShape>
       <di:BPMNEdge id="_NxK88I6MEeeJt5EnBIsasw" bpmnElement="_NxKV4I6MEeeJt5EnBIsasw">
-        <di_1:waypoint x="140.0" y="157.0"/>
+        <di_1:waypoint x="141.0" y="157.0"/>
         <di_1:waypoint x="228.0" y="157.0"/>
         <di:BPMNLabel>
-          <dc:Bounds height="1.0" width="0.0" x="46.0" y="36.0"/>
+          <dc:Bounds height="1.0" width="1.0" x="138.0" y="110.0"/>
         </di:BPMNLabel>
       </di:BPMNEdge>
       <di:BPMNEdge id="_e0Ius46MEeeJt5EnBIsasw" bpmnElement="_e0IusI6MEeeJt5EnBIsasw">
         <di_1:waypoint x="348.0" y="159.0"/>
         <di_1:waypoint x="437.0" y="159.0"/>
         <di:BPMNLabel>
-          <dc:Bounds height="1.0" width="1.0" x="98.0" y="37.0"/>
+          <dc:Bounds height="1.0" width="1.0" x="294.0" y="111.0"/>
         </di:BPMNLabel>
       </di:BPMNEdge>
       <di:BPMNEdge id="_nuPi8I6MEeeJt5EnBIsasw" bpmnElement="_nuO74I6MEeeJt5EnBIsasw">
@@ -275,23 +309,23 @@
         <di_1:waypoint x="648.0" y="71.0"/>
         <di_1:waypoint x="1482.0" y="71.0"/>
         <di:BPMNLabel>
-          <dc:Bounds height="5.0" width="5.0" x="232.0" y="13.0"/>
+          <dc:Bounds height="12.0" width="14.0" x="696.0" y="40.0"/>
         </di:BPMNLabel>
       </di:BPMNEdge>
       <di:BPMNEdge id="_0CtlQo6MEeeJt5EnBIsasw" bpmnElement="_0Cs-MI6MEeeJt5EnBIsasw">
-        <di_1:waypoint x="474.0" y="164.0"/>
-        <di_1:waypoint x="522.0" y="164.0"/>
-        <di_1:waypoint x="522.0" y="197.0"/>
-        <di_1:waypoint x="570.0" y="197.0"/>
+        <di_1:waypoint x="458.0" y="180.0"/>
+        <di_1:waypoint x="458.0" y="203.0"/>
+        <di_1:waypoint x="570.0" y="203.0"/>
         <di:BPMNLabel>
-          <dc:Bounds height="4.0" width="3.0" x="126.0" y="47.0"/>
+          <dc:Bounds height="12.0" width="8.0" x="384.0" y="156.0"/>
         </di:BPMNLabel>
       </di:BPMNEdge>
       <di:BPMNEdge id="_xbtb446OEeeJt5EnBIsasw" bpmnElement="_xbtb4I6OEeeJt5EnBIsasw">
-        <di_1:waypoint x="670.0" y="191.0"/>
-        <di_1:waypoint x="741.0" y="191.0"/>
+        <di_1:waypoint x="618.0" y="189.0"/>
+        <di_1:waypoint x="618.0" y="159.0"/>
+        <di_1:waypoint x="741.0" y="159.0"/>
         <di:BPMNLabel>
-          <dc:Bounds height="1.0" width="1.0" x="176.0" y="45.0"/>
+          <dc:Bounds height="1.0" width="1.0" x="498.0" y="111.0"/>
         </di:BPMNLabel>
       </di:BPMNEdge>
       <di:BPMNEdge id="_55Yy046OEeeJt5EnBIsasw" bpmnElement="_55Yy0I6OEeeJt5EnBIsasw">
@@ -299,7 +333,7 @@
         <di_1:waypoint x="620.0" y="270.0"/>
         <di_1:waypoint x="741.0" y="270.0"/>
         <di:BPMNLabel>
-          <dc:Bounds height="0.0" width="1.0" x="166.0" y="65.0"/>
+          <dc:Bounds height="0.0" width="1.0" x="498.0" y="195.0"/>
         </di:BPMNLabel>
       </di:BPMNEdge>
       <di:BPMNEdge id="_7NT4046OEeeJt5EnBIsasw" bpmnElement="_7NT40I6OEeeJt5EnBIsasw">
@@ -307,7 +341,7 @@
         <di_1:waypoint x="939.0" y="285.0"/>
         <di_1:waypoint x="939.0" y="243.0"/>
         <di:BPMNLabel>
-          <dc:Bounds height="1.0" width="1.0" x="230.0" y="68.0"/>
+          <dc:Bounds height="1.0" width="1.0" x="690.0" y="206.0"/>
         </di:BPMNLabel>
       </di:BPMNEdge>
       <di:BPMNEdge id="_8DZMQ46OEeeJt5EnBIsasw" bpmnElement="_8DZMQI6OEeeJt5EnBIsasw">
@@ -315,7 +349,7 @@
         <di_1:waypoint x="939.0" y="159.0"/>
         <di_1:waypoint x="939.0" y="200.0"/>
         <di:BPMNLabel>
-          <dc:Bounds height="1.0" width="1.0" x="230.0" y="37.0"/>
+          <dc:Bounds height="1.0" width="1.0" x="690.0" y="111.0"/>
         </di:BPMNLabel>
       </di:BPMNEdge>
       <di:BPMNEdge id="_LxJMoo6REeeJt5EnBIsasw" bpmnElement="_LxIlkI6REeeJt5EnBIsasw">
@@ -323,7 +357,7 @@
         <di_1:waypoint x="1015.0" y="221.0"/>
         <di_1:waypoint x="1015.0" y="630.0"/>
         <di:BPMNLabel>
-          <dc:Bounds height="1.0" width="1.0" x="256.0" y="99.0"/>
+          <dc:Bounds height="1.0" width="1.0" x="768.0" y="298.0"/>
         </di:BPMNLabel>
       </di:BPMNEdge>
       <di:BPMNEdge id="_3kcicI6TEeeJt5EnBIsasw" bpmnElement="_3kb7YI6TEeeJt5EnBIsasw">
@@ -332,14 +366,14 @@
         <di_1:waypoint x="1149.0" y="487.0"/>
         <di_1:waypoint x="1149.0" y="345.0"/>
         <di:BPMNLabel>
-          <dc:Bounds height="1.0" width="1.0" x="272.0" y="119.0"/>
+          <dc:Bounds height="1.0" width="1.0" x="817.0" y="357.0"/>
         </di:BPMNLabel>
       </di:BPMNEdge>
       <di:BPMNEdge id="_HHqjQ46VEeeJt5EnBIsasw" bpmnElement="_HHqjQI6VEeeJt5EnBIsasw">
         <di_1:waypoint x="1161.0" y="285.0"/>
         <di_1:waypoint x="1161.0" y="223.0"/>
         <di:BPMNLabel>
-          <dc:Bounds height="1.0" width="1.0" x="287.0" y="63.0"/>
+          <dc:Bounds height="1.0" width="1.0" x="863.0" y="190.0"/>
         </di:BPMNLabel>
       </di:BPMNEdge>
       <di:BPMNEdge id="_d2ZlAI6VEeeJt5EnBIsasw" bpmnElement="_d2Xv0I6VEeeJt5EnBIsasw">
@@ -348,7 +382,7 @@
         <di_1:waypoint x="589.0" y="114.0"/>
         <di_1:waypoint x="589.0" y="189.0"/>
         <di:BPMNLabel>
-          <dc:Bounds height="4.0" width="3.0" x="216.0" y="29.0"/>
+          <dc:Bounds height="12.0" width="8.0" x="649.0" y="87.0"/>
         </di:BPMNLabel>
       </di:BPMNEdge>
       <di:BPMNEdge id="_lK1b8I6VEeeJt5EnBIsasw" bpmnElement="_lKzmwI6VEeeJt5EnBIsasw">
@@ -356,7 +390,7 @@
         <di_1:waypoint x="1336.0" y="202.0"/>
         <di_1:waypoint x="1336.0" y="977.0"/>
         <di:BPMNLabel>
-          <dc:Bounds height="5.0" width="5.0" x="313.0" y="73.0"/>
+          <dc:Bounds height="12.0" width="13.0" x="983.0" y="384.0"/>
         </di:BPMNLabel>
       </di:BPMNEdge>
       <di:BPMNEdge id="_FhGYo46WEeeJt5EnBIsasw" bpmnElement="_FhGYoI6WEeeJt5EnBIsasw">
@@ -364,15 +398,15 @@
         <di_1:waypoint x="1329.0" y="1151.0"/>
         <di_1:waypoint x="1465.0" y="1151.0"/>
         <di:BPMNLabel>
-          <dc:Bounds height="1.0" width="1.0" x="336.0" y="285.0"/>
+          <dc:Bounds height="1.0" width="1.0" x="1008.0" y="855.0"/>
         </di:BPMNLabel>
       </di:BPMNEdge>
       <di:BPMNEdge id="_HA7XM46XEeeJt5EnBIsasw" bpmnElement="_HA7XMI6XEeeJt5EnBIsasw">
         <di_1:waypoint x="1601.0" y="978.0"/>
-        <di_1:waypoint x="1601.0" y="78.0"/>
-        <di_1:waypoint x="1510.0" y="78.0"/>
+        <di_1:waypoint x="1601.0" y="75.0"/>
+        <di_1:waypoint x="1510.0" y="75.0"/>
         <di:BPMNLabel>
-          <dc:Bounds height="1.0" width="1.0" x="397.0" y="120.0"/>
+          <dc:Bounds height="1.0" width="1.0" x="1193.0" y="360.0"/>
         </di:BPMNLabel>
       </di:BPMNEdge>
       <di:BPMNEdge id="_gsjA0o6XEeeJt5EnBIsasw" bpmnElement="_gsiZwI6XEeeJt5EnBIsasw">
@@ -380,23 +414,24 @@
         <di_1:waypoint x="1484.0" y="1008.0"/>
         <di_1:waypoint x="1509.0" y="1008.0"/>
         <di:BPMNLabel>
-          <dc:Bounds height="5.0" width="3.0" x="367.0" y="262.0"/>
+          <dc:Bounds height="12.0" width="8.0" x="1102.0" y="787.0"/>
         </di:BPMNLabel>
       </di:BPMNEdge>
       <di:BPMNEdge id="_eX95oI6YEeeJt5EnBIsasw" bpmnElement="_eX8rgI6YEeeJt5EnBIsasw">
-        <di_1:waypoint x="1503.0" y="1155.0"/>
-        <di_1:waypoint x="1672.0" y="1155.0"/>
+        <di_1:waypoint x="1492.0" y="1166.0"/>
+        <di_1:waypoint x="1492.0" y="1177.0"/>
+        <di_1:waypoint x="1672.0" y="1177.0"/>
         <di:BPMNLabel>
-          <dc:Bounds height="5.0" width="5.0" x="395.0" y="284.0"/>
+          <dc:Bounds height="12.0" width="14.0" x="1176.0" y="870.0"/>
         </di:BPMNLabel>
       </di:BPMNEdge>
       <di:BPMNEdge id="_o4G3ko6YEeeJt5EnBIsasw" bpmnElement="_o4GQgI6YEeeJt5EnBIsasw">
         <di_1:waypoint x="1796.0" y="1183.0"/>
         <di_1:waypoint x="1867.0" y="1183.0"/>
         <di_1:waypoint x="1867.0" y="1094.0"/>
-        <di_1:waypoint x="1939.0" y="1094.0"/>
+        <di_1:waypoint x="1938.0" y="1094.0"/>
         <di:BPMNLabel>
-          <dc:Bounds height="1.0" width="1.0" x="464.0" y="284.0"/>
+          <dc:Bounds height="1.0" width="1.0" x="1392.0" y="853.0"/>
         </di:BPMNLabel>
       </di:BPMNEdge>
       <di:BPMNEdge id="_1t4asI6ZEeeJt5EnBIsasw" bpmnElement="_1t3zoI6ZEeeJt5EnBIsasw">
@@ -404,45 +439,44 @@
         <di_1:waypoint x="266.0" y="331.0"/>
         <di_1:waypoint x="371.0" y="331.0"/>
         <di:BPMNLabel>
-          <dc:Bounds height="1.0" width="0.0" x="69.0" y="80.0"/>
+          <dc:Bounds height="1.0" width="0.0" x="207.0" y="240.0"/>
         </di:BPMNLabel>
       </di:BPMNEdge>
       <di:BPMNEdge id="_6MXYMI6ZEeeJt5EnBIsasw" bpmnElement="_6MWxII6ZEeeJt5EnBIsasw">
-        <di_1:waypoint x="1122.0" y="351.0"/>
-        <di_1:waypoint x="1015.0" y="351.0"/>
-        <di_1:waypoint x="1015.0" y="370.0"/>
-        <di_1:waypoint x="956.0" y="370.0"/>
+        <di_1:waypoint x="1143.0" y="362.0"/>
+        <di_1:waypoint x="1143.0" y="407.0"/>
+        <di_1:waypoint x="994.0" y="407.0"/>
         <di:BPMNLabel>
-          <dc:Bounds height="1.0" width="1.0" x="257.0" y="90.0"/>
+          <dc:Bounds height="1.0" width="1.0" x="818.0" y="312.0"/>
         </di:BPMNLabel>
       </di:BPMNEdge>
       <di:BPMNEdge id="_-IgdoI6ZEeeJt5EnBIsasw" bpmnElement="_-If2kI6ZEeeJt5EnBIsasw">
         <di_1:waypoint x="1296.0" y="1053.0"/>
         <di_1:waypoint x="1138.0" y="1053.0"/>
         <di:BPMNLabel>
-          <dc:Bounds height="1.0" width="1.0" x="304.0" y="265.0"/>
+          <dc:Bounds height="1.0" width="1.0" x="912.0" y="797.0"/>
         </di:BPMNLabel>
       </di:BPMNEdge>
-      <di:BPMNShape id="_nsBK0I6LEeeJt5EnBIsasw" bpmnElement="_Od_eUY6aEeeJt5EnBIsasw" isHorizontal="true">
-        <dc:Bounds height="126.0" width="341.0" x="7.0" y="336.0"/>
+      <di:BPMNShape id="_nsBK0I6LEeeJt5EnBIsasw" bpmnElement="_IdIggI-JEeew5YZL3Vao4Q" isHorizontal="true">
+        <dc:Bounds height="376.0" width="1021.0" x="22.0" y="1009.0"/>
       </di:BPMNShape>
-      <di:BPMNShape id="_r1HHII6LEeeJt5EnBIsasw" bpmnElement="_r1GgEI6LEeeJt5EnBIsasw" isHorizontal="true">
-        <dc:Bounds height="63.0" width="335.0" x="13.0" y="336.0"/>
+      <di:BPMNShape id="_0_JiNI-BEeew5YZL3Vao4Q" bpmnElement="_r1GgEI6LEeeJt5EnBIsasw" isHorizontal="true">
+        <dc:Bounds height="188.0" width="1004.0" x="44.0" y="1010.0"/>
       </di:BPMNShape>
       <di:BPMNShape id="_E4cowI6MEeeJt5EnBIsasw" bpmnElement="_E4baoI6MEeeJt5EnBIsasw">
-        <dc:Bounds height="13.0" width="26.0" x="51.0" y="361.0"/>
+        <dc:Bounds height="38.0" width="76.0" x="158.0" y="1085.0"/>
       </di:BPMNShape>
       <di:BPMNShape id="_STcKEI6TEeeJt5EnBIsasw" bpmnElement="_STbjAI6TEeeJt5EnBIsasw">
-        <dc:Bounds height="16.0" width="31.0" x="117.0" y="360.0"/>
+        <dc:Bounds height="46.0" width="91.0" x="357.0" y="1081.0"/>
       </di:BPMNShape>
-      <di:BPMNShape id="_QHM8AI6TEeeJt5EnBIsasw" bpmnElement="_QHMU8I6TEeeJt5EnBIsasw" isHorizontal="true">
-        <dc:Bounds height="63.0" width="335.0" x="13.0" y="399.0"/>
+      <di:BPMNShape id="_0_JiPI-BEeew5YZL3Vao4Q" bpmnElement="_QHMU8I6TEeeJt5EnBIsasw" isHorizontal="true">
+        <dc:Bounds height="188.0" width="1004.0" x="44.0" y="1198.0"/>
       </di:BPMNShape>
       <di:BPMNShape id="_WuojBY6TEeeJt5EnBIsasw" bpmnElement="_Wun78I6TEeeJt5EnBIsasw">
-        <dc:Bounds height="16.0" width="31.0" x="48.0" y="422.0"/>
+        <dc:Bounds height="46.0" width="91.0" x="151.0" y="1269.0"/>
       </di:BPMNShape>
     </di:BPMNPlane>
-    <di:BPMNLabelStyle id="_Od8bAY6aEeeJt5EnBIsasw">
+    <di:BPMNLabelStyle id="_IdDA8Y-JEeew5YZL3Vao4Q">
       <dc:Font isBold="false" isItalic="false" isStrikeThrough="false" isUnderline="false" name="Segoe UI" size="9.0"/>
     </di:BPMNLabelStyle>
   </di:BPMNDiagram>
